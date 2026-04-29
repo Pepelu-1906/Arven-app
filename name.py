@@ -8,7 +8,7 @@ st.set_page_config(page_title="Arven Invest", layout="wide")
 
 st.title("🛡️ Arven: Terminal de Inversión")
 
-ticker = st.sidebar.text_input("Introduce Ticker", "MSFT").upper()
+ticker = st.text_input("Escribe el Ticker aquí y pulsa la lupa del teclado", "MSFT").upper()
 
 if ticker:
     try:
